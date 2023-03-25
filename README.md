@@ -1,6 +1,7 @@
 # Resume Management
 
 ## YouTube Tutorial
+https://www.youtube.com/watch?v=AiwzQMupPsU
 
 ## Solution Technologies
 
@@ -13,6 +14,10 @@
 ## Solution Architecture
 
 <img src="./banner.png" />
+
+## Database Structure
+
+<img src="./DB.png" />
 
 ## We will learn these topics together
 
