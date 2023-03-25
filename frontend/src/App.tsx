@@ -4,7 +4,7 @@ import { ThemeContext } from "./context/theme.context";
 import { Routes, Route } from "react-router-dom";
 import CustomLinearProgress from "./components/custom-linear-progress/CustomLinearProgress.component";
 
-// Imporst with Lazy loading
+// Imports with Lazy loading
 const Home = lazy(() => import("./pages/home/Home.page"));
 const Companies = lazy(() => import("./pages/companies/Companies.page"));
 const AddCompany = lazy(() => import("./pages/companies/AddCompany.page"));
