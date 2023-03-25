@@ -1,0 +1,42 @@
+@import "./mixins";
+
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+   --blue: #4864ff;
+   --bg-color: #fff;
+   --text-color1: #000;
+   --text-color2: #555;
+}
+a {
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+}
+.wrapper {
+   width: 100%;
+   padding: 2rem;
+   min-height: calc(100vh - 60px);
+}
+.content {
+   @include d-flex(column, flex-start, center);
+   gap: 2rem;
+}
+.app {
+   color: var(--text-color1);
+   background-color: var(--bg-color);
+   transition: all 0.3s ease-in-out;
+
+   &.dark {
+      --bg-color: #000;
+      --text-color1: #fff;
+      --text-color2: #999;
+   }
+}
