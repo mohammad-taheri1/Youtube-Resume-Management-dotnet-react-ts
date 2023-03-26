@@ -80,7 +80,7 @@ namespace backend.Controllers
             return file;
         }
 
-        // Read (Get Job By ID)
+        // Read (Get Candidate By ID)
 
         // Update 
 
