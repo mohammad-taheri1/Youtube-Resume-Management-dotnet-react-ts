@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=AiwzQMupPsU
 
 ## Solution Architecture
 
-<img src="./banner.png" />
+<img src="./resume-management.jpg" />
 
 ## Database Structure
 
